@@ -1,11 +1,13 @@
 import React from 'react';
-import '../styles/Home.css';
+import '../styles/Hub.css';
 import HeaderHub from '../components/headerHub';
+import AreaTypes from '../components/areaTypes';
 
 function Hub() {
   return (
-    <div className='container2'>
+    <div className='container'>
       <HeaderHub />
+      <AreaTypes />
     </div>
   );
 }

@@ -8,6 +8,7 @@ function Home() {
     <div className='container2'>
       <HeaderHome />
       <AreaMainHome />
+      
     </div>
   );
 }
