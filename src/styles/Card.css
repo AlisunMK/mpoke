@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+.cardContainer{
+    width: 200px;
+    height: 250px;
+    background-color: #212121;
+    background-image: linear-gradient(180deg, #212121 60%, #141414 100%);
+    border-radius: 20px 60px 20px 20px;
+    box-shadow: #0000002c 8px 8px 10px;
+    cursor: pointer;
+    transition: all 0.9s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+p{
+    color: aliceblue;
+    font-family: "Lexend", sans-serif;
+    text-transform: capitalize;
+}
+span{
+    color: rgb(250, 226, 9);
+    font-family: "Lexend", sans-serif;
+    text-transform: capitalize;
+    font-size: 10px;
+}

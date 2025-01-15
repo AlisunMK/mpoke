@@ -27,7 +27,7 @@ function AreaTypes() {
         <div className="areaT">
             <h1>Selecione por tipo:</h1>
             <div className="areaTypesMain">
-                {tipos.map((tipo, index) => (
+                {tipos.map((tipo, index) => (   
                     <div key={index} className="btnT">
                         <img src={tipo} alt={`Tipo ${index + 1}`} />
                     </div>

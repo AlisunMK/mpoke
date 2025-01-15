@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles/AreaMainHome.css'
-import imgPikachu from '../imgs/Group 12.svg'
+import imgPikachu from '../imgs/Pikachu.svg'
 
 function AreaMainHome(){
     return(
