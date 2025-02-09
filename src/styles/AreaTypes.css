@@ -1,11 +1,11 @@
 .areaT{
     margin-top: 20px;
     width: 70%;
-    height: 100px;
+    height: 8%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: center;
+    justify-content: space-evenly;   
 }
 .areaT h1{
     font-family: 'Lexend', sans-serif;
@@ -15,7 +15,7 @@
 }
 .areaTypesMain{
     width: 80%;
-    height: 32px;
+    height:40%;
     margin-top: 5px;
     background-color: #2C2B2B;
     border-radius: 30px 30px 5px 30px;
@@ -26,8 +26,11 @@
 }
 .btnT{
     cursor: pointer;
-    width: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
 }
 .btnT img{
-    width: 100%;
+    width: 95%;
 }
